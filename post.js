@@ -16,3 +16,18 @@ var y = document.getElementById('posted');
 y.append(x);
   
 }
+function like(){
+  var res = document.getElementById("like-func")
+  if(res){
+    res.style.backgroundColor="blue"
+  }else{
+    res.style.backgroundColor="white"
+  }
+
+}
+function comment(){
+  var com = document.getElementById('comment-func');
+  var box = document.getElementById('comm-box');
+box.focus()
+} 
+
